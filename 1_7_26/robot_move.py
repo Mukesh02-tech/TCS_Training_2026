@@ -1,5 +1,5 @@
 def mo(a,b,c,r):
-    if a>c or b>r:
+    if c>a or r>b:
         return 0
     if a==c and b==r:
         return 1
